@@ -1,0 +1,28 @@
+/* header -------------------------------------------------------- */
+.header {
+    background-color: var(--color-white);
+  }
+.header-wrapper {
+    max-width: 1182px;
+    display: flex;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.header-rihgt-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    padding-top: 10px; 
+}
+.top-link {
+    display: flex;
+    width: 72px;
+    height: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+/*-------table--------------*/

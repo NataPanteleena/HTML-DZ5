@@ -1,0 +1,72 @@
+/* sidebar -------------------------------------------------------- */
+.sidebar {
+    width: 263px;
+    height: 920px;
+    background-color: var(--color-white);
+    grid-column: 1;
+    display: block;
+    margin-left: 10px;
+    position: relative;
+}
+.personal-cabinet {
+    height: 88px;
+    border-bottom: 1px solid var(--color-black);
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    gap: 12px;
+}
+.letter-A-wrapper {
+    background-color: var(--color-grey-text);
+    width: 40px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.letter-A {
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-grey-lines);
+}
+.personal-cabinet-text {
+    display: block;
+    width: 94px;
+}
+.PC-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+.PC-notice {
+    font-size: 12px;
+    font-weight: 400;
+}
+.left-block-proposals {
+    height: 40px;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.vertical-line {
+    width: 2px;
+    height: 40px;
+    border-color: 1px solid var(--color-blue);
+    background-color: var(--color-blue);
+}
+.btn-proposal {
+    width: 114px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-proposal {
+    color: var(--color-blue);
+}
+.exit-link {
+    padding-left: 24px;
+    position: absolute;
+    top: 856px;
+}
